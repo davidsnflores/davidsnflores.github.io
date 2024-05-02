@@ -283,3 +283,57 @@ hr {
 	text-align: center;
 	text-transform: none;
 }
+
+
+/*---------GALLERY------*/
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .image {
+    position: relative;
+    margin: 10px;
+  }
+  
+  .image img {
+    width: 300px;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.milista {
+	list-style-type: square; /* Cambiar el tipo de viñeta */
+	color: blue; /* Cambiar el color del texto */
+  }
+  
+  .mi-lista li {
+	font-size: 18px; /* Cambiar el tamaño de la fuente de los elementos de la lista */
+}
+  
