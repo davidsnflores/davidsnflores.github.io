@@ -240,6 +240,7 @@ hr {
 	margin: -38px 0 20px;
 	padding-top: 42px;
 	text-transform: uppercase;
+	text-align: center;
 }
 #footer > div {
 	background-color: cornflowerblue;
@@ -249,7 +250,7 @@ hr {
 	border-top: 1px solid #cdbeb2;
 	margin: 0 auto;
 	padding: 0 20px;
-	text-align: right;
+	text-align: center;
 }
 
 #footer p {
@@ -304,12 +305,12 @@ hr {
 }
 
 .milista {
-	list-style-type: square; /* Cambiar el tipo de viñeta */
-	color: blue; /* Cambiar el color del texto */
+	list-style-type: square; 
+	color: blue; 
   }
   
   .mi-lista li {
-	font-size: 18px; /* Cambiar el tamaño de la fuente de los elementos de la lista */
+	font-size: 18px; 
 }
 
 
@@ -326,7 +327,7 @@ hr {
     text-align: center;
   }
   
-  /* Estilos para los campos de entrada */
+  
   label {
     display: block;
     margin-bottom: 10px;
@@ -340,14 +341,14 @@ hr {
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-sizing: border-box; /* Para incluir el padding en el ancho total */
+    box-sizing: border-box;
   }
   
   textarea {
     height: 150px;
   }
   
-  /* Estilos para el botón de enviar */
+
   input[type="submit"] {
     background-color: #4CAF50;
     color: white;
